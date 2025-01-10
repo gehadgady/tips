@@ -5,7 +5,8 @@ import seaborn as sns
 import streamlit as st
 
 # r to ensure that is for a path
-uploaded_file = r"data\tips.csv"
+# uploaded_file = r"data\tips.csv"
+uploaded_file = r"data/tips.csv"
 data= pd.read_csv(uploaded_file)
 print(data)
 
